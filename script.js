@@ -19,4 +19,14 @@ formClose.addEventListener('click',()=>{
     loginForm.classList.remove('active');
 })
 
+// Hamburger icon 
+let menu=document.querySelector('#menu-bar');
+let navbar=document.querySelector('.navbar');
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    menu.classList.toggle('fa-bars');
+    navbar.classList.toggle('active');
+});
+
 
