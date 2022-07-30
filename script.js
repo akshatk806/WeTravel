@@ -30,3 +30,17 @@ menu.addEventListener('click', () =>{
 });
 
 
+// SwiperJS
+var swiper = new Swiper(".review-slider", {
+    spaceBetween:20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay:{
+        delay:5000,
+        disableOnInteraction:false,
+    }
+});
+
+
