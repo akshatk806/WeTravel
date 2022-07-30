@@ -424,6 +424,10 @@ section{
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
 }
 
+.packages .box-container .box:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.7);
+}
+
 .packages .box-container .box img{
     height: 25rem;
     width: 100%;
