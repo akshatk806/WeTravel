@@ -488,7 +488,13 @@ section{
     text-align: center;
 }
 
-.services .box-container .box i,.icon{
+.services .box-container .box i{
+    padding: 1rem;
+    font-size: 5rem;
+    color: orange;
+}
+
+#food-icon{
     padding: 1rem;
     font-size: 5rem;
     color: orange;
