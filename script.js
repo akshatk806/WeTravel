@@ -29,6 +29,15 @@ menu.addEventListener('click', () =>{
     navbar.classList.toggle('active');
 });
 
+// Closing of hamburger menu after clicking on any of anchor tag in navbar
+let menu_close=document.getElementsByClassName('close-menu')
+Array.from(menu_close).forEach((element)=>{
+    element.addEventListener('click',()=>{
+        navbar.classList.toggle('active');
+        menu.classList.toggle('fa-bars');
+    })
+})
+
 
 // SwiperJS
 var swiper = new Swiper(".review-slider", {
