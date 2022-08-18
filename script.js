@@ -35,6 +35,7 @@ Array.from(menu_close).forEach((element)=>{
     element.addEventListener('click',()=>{
         navbar.classList.toggle('active');
         menu.classList.toggle('fa-bars');
+        menu.classList.toggle('fa-times');
     })
 })
 
